@@ -15,7 +15,6 @@
 		43955E182459815200173DBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43955E162459815200173DBF /* LaunchScreen.storyboard */; };
 		43955E1B2459815200173DBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 43955E1A2459815200173DBF /* main.m */; };
 		43955E292459819B00173DBF /* FFScrollLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 43955E222459819B00173DBF /* FFScrollLabel.m */; };
-		43955E2A2459819B00173DBF /* 上架检查.md in Resources */ = {isa = PBXBuildFile; fileRef = 43955E252459819B00173DBF /* 上架检查.md */; };
 		43955E2B2459819B00173DBF /* NSString+FFHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 43955E282459819B00173DBF /* NSString+FFHelper.m */; };
 /* End PBXBuildFile section */
 
@@ -34,7 +33,6 @@
 		43955E1A2459815200173DBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		43955E222459819B00173DBF /* FFScrollLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFScrollLabel.m; sourceTree = "<group>"; };
 		43955E232459819B00173DBF /* FFScrollLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFScrollLabel.h; sourceTree = "<group>"; };
-		43955E252459819B00173DBF /* 上架检查.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = "上架检查.md"; sourceTree = "<group>"; };
 		43955E272459819B00173DBF /* NSString+FFHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+FFHelper.h"; sourceTree = "<group>"; };
 		43955E282459819B00173DBF /* NSString+FFHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+FFHelper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -71,7 +69,6 @@
 			children = (
 				43955E262459819B00173DBF /* Category */,
 				43955E212459819B00173DBF /* FFScrollLabel */,
-				43955E242459819B00173DBF /* Image */,
 				43955E082459815200173DBF /* AppDelegate.h */,
 				43955E092459815200173DBF /* AppDelegate.m */,
 				43955E0B2459815200173DBF /* SceneDelegate.h */,
@@ -94,14 +91,6 @@
 				43955E232459819B00173DBF /* FFScrollLabel.h */,
 			);
 			path = FFScrollLabel;
-			sourceTree = "<group>";
-		};
-		43955E242459819B00173DBF /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				43955E252459819B00173DBF /* 上架检查.md */,
-			);
-			path = Image;
 			sourceTree = "<group>";
 		};
 		43955E262459819B00173DBF /* Category */ = {
@@ -173,7 +162,6 @@
 				43955E182459815200173DBF /* LaunchScreen.storyboard in Resources */,
 				43955E152459815200173DBF /* Assets.xcassets in Resources */,
 				43955E132459815200173DBF /* Main.storyboard in Resources */,
-				43955E2A2459819B00173DBF /* 上架检查.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
